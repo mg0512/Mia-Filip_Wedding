@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Romantično crveno srce na toploj pastelnoj pozadini">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf5"/><stop offset=".55" stop-color="#f3dfd5"/><stop offset="1" stop-color="#e8c5b7"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="heart" x1=".15" y1=".1" x2=".9" y2=".95"><stop stop-color="#ff9a9a"/><stop offset=".32" stop-color="#df5360"/><stop offset=".7" stop-color="#b82f48"/><stop offset="1" stop-color="#7d2038"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1200" height="800" fill="url(#bg)"/>
+<circle cx="920" cy="150" r="260" fill="url(#glow)" opacity=".8"/><circle cx="220" cy="640" r="230" fill="url(#glow)" opacity=".5"/>
+<g fill="#fff" opacity=".45"><circle cx="160" cy="170" r="5"/><circle cx="285" cy="255" r="3"/><circle cx="1010" cy="540" r="6"/><circle cx="890" cy="620" r="4"/><circle cx="430" cy="125" r="4"/><circle cx="1080" cy="300" r="3"/></g>
+<ellipse cx="610" cy="665" rx="270" ry="48" fill="#7b3a42" opacity=".18" filter="url(#shadow)"/>
+<g transform="translate(0,-8)">
+ <path d="M600 646 C550 596 318 430 318 281 C318 143 483 105 600 239 C717 105 882 143 882 281 C882 430 650 596 600 646Z" fill="url(#heart)" stroke="#a83b4e" stroke-opacity=".35" stroke-width="4"/>
+ <path d="M600 646 C550 596 318 430 318 281 C318 143 483 105 600 239 C717 105 882 143 882 281 C882 430 650 596 600 646Z" fill="none" stroke="#ffd2d0" stroke-opacity=".5" stroke-width="5"/>
+ <path d="M375 278 C380 190 471 161 532 226 C492 205 438 219 421 272 C405 320 439 368 463 398 C413 363 370 323 375 278Z" fill="url(#shine)" opacity=".72"/>
+ <path d="M488 178 C523 182 552 202 574 232" fill="none" stroke="#fff" stroke-opacity=".65" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g fill="none" stroke="#b87568" stroke-width="3" stroke-linecap="round" opacity=".6"><path d="M110 620 Q170 560 225 610 Q270 645 290 690"/><path d="M1040 610 Q1000 555 950 590 Q920 615 900 665"/></g>
+<g fill="#c78b88" opacity=".7"><circle cx="190" cy="604" r="11"/><circle cx="211" cy="620" r="8"/><circle cx="1010" cy="590" r="10"/><circle cx="986" cy="609" r="7"/></g>
+</svg>
